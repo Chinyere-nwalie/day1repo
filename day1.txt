@@ -28,9 +28,6 @@ _______
 ---.__(___)
 '''
 import random
-# rock wins against scissors. scissors wins against paper. paper wins against rock.
-# what do you chose. type 0 for rock, i for paper, 2 for scisscor.
-import random
 game_choice = [rock, paper, scissors]
 user_choice = int(input("What do you chose. Type 0 for rock. 1 for paper. 2 for scissor.\n"))
 if user_choice >= 3 and user_choice < 0:
