@@ -1,6 +1,5 @@
 # Below is my rock, paper, scissor game.
 
-```sh
 rock = '''
    _______
 ---'   ____)
@@ -47,4 +46,3 @@ else:
      print("You lose!")
   elif computer_choice == user_choice:
      print("it's a tie!")
- ```
