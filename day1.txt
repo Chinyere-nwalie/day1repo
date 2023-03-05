@@ -1,6 +1,6 @@
-This is my day1 file
-Below is my rock, paper, scissor game.
-my Git Workflow is to write-stage-commit-push-make a PR
+# Below is my rock, paper, scissor game.
+
+```sh
 rock = '''
    _______
 ---'   ____)
@@ -47,3 +47,4 @@ else:
      print("You lose!")
   elif computer_choice == user_choice:
      print("it's a tie!")
+ ```
