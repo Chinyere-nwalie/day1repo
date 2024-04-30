@@ -1,5 +1,6 @@
-# My rock, paper, scissor game.
-```
+# My rock, paper, scissor game
+
+```py
 rock = '''
    _______
 ---'   ____)
@@ -25,7 +26,7 @@ _______
        __________)
       (____)
 ---.__(___)
-'''
+```
 
 import random
 game_choice = [rock, paper, scissors]
