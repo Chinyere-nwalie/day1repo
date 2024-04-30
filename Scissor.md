@@ -1,4 +1,4 @@
-# My rock, paper, scissor game
+## My rock -> paper -> scissor game
 
 ```py
 rock = '''
@@ -28,6 +28,8 @@ _______
 ---.__(___)
 ```
 
+
+```sh
 import random
 game_choice = [rock, paper, scissors]
 user_choice = int(input("What do you chose. Type 0 for rock. 1 for paper. 2 for scissor.\n"))
@@ -48,3 +50,4 @@ else:
      print("You lose!")
   elif computer_choice == user_choice:
      print("it's a tie!")
+```
